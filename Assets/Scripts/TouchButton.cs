@@ -7,8 +7,8 @@ public class TouchButton : XRBaseInteractable
 {
     public int buttonValue;
     public Material buttonPressedMaterial;
-    public NumberPad numPad;
-
+    
+    private NumberPad numPad;
     private MeshRenderer m_renderer;
     private Material buttonOriginalMaterial;
 

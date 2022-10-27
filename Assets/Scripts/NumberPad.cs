@@ -9,10 +9,10 @@ public class NumberPad : MonoBehaviour
     public TextMeshProUGUI textOutput;
     public GameObject keycardPrefab;
     public Transform keycardSpawnPos;
+    public string secretCode;
 
     private string currentInput;
-    private string secretCode;
-
+    
     void Start()
     {
         currentInput = string.Empty;
@@ -38,9 +38,12 @@ public class NumberPad : MonoBehaviour
 
     private void CheckCodeIsCorrect()
     {
-        if (currentInput == secretCode)
-            Instantiate(keycardPrefab, keycardSpawnPos.position, keycardPrefab.transform.rotation);
-        else if (currentInput.Length == secretCode.Length)
+        if (currentInput.Length >= secretCode.Length)
+        {
+            if (currentInput == secretCode)
+                Instantiate(keycardPrefab, keycardSpawnPos.position, keycardPrefab.transform.rotation);
+
             ResetInput();
+        }
     }
 }
