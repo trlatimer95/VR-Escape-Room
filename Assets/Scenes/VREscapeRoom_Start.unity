@@ -870,6 +870,11 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 4305677855302702103, guid: 4341751daf16c594f8e7d27244abe1df, type: 3}
   m_PrefabInstance: {fileID: 622040700}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &622040702 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1039246434763196655, guid: 4341751daf16c594f8e7d27244abe1df, type: 3}
+  m_PrefabInstance: {fileID: 622040700}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -1100,6 +1105,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 167350233412404434, guid: e97db2d0c9847b248aa9914c68ccfa8f, type: 3}
+      propertyPath: buttonValue
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 167350233412404434, guid: e97db2d0c9847b248aa9914c68ccfa8f, type: 3}
+      propertyPath: buttonPressedMaterial
+      value: 
+      objectReference: {fileID: 2100000, guid: 1fee7b49ad8a6c14ca5a43b22bd18aaa, type: 2}
     - target: {fileID: 431515731680291409, guid: e97db2d0c9847b248aa9914c68ccfa8f, type: 3}
       propertyPath: m_Camera
       value: 
@@ -1108,10 +1121,74 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1323471296864409754, guid: e97db2d0c9847b248aa9914c68ccfa8f, type: 3}
+      propertyPath: numPad
+      value: 
+      objectReference: {fileID: 1080107485}
+    - target: {fileID: 1323471296864409754, guid: e97db2d0c9847b248aa9914c68ccfa8f, type: 3}
+      propertyPath: buttonValue
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1323471296864409754, guid: e97db2d0c9847b248aa9914c68ccfa8f, type: 3}
+      propertyPath: buttonPressedMaterial
+      value: 
+      objectReference: {fileID: 2100000, guid: 1fee7b49ad8a6c14ca5a43b22bd18aaa, type: 2}
+    - target: {fileID: 2092711728431331983, guid: e97db2d0c9847b248aa9914c68ccfa8f, type: 3}
+      propertyPath: buttonValue
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2092711728431331983, guid: e97db2d0c9847b248aa9914c68ccfa8f, type: 3}
+      propertyPath: buttonPressedMaterial
+      value: 
+      objectReference: {fileID: 2100000, guid: 1fee7b49ad8a6c14ca5a43b22bd18aaa, type: 2}
+    - target: {fileID: 2155346229336153273, guid: e97db2d0c9847b248aa9914c68ccfa8f, type: 3}
+      propertyPath: buttonValue
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2155346229336153273, guid: e97db2d0c9847b248aa9914c68ccfa8f, type: 3}
+      propertyPath: buttonPressedMaterial
+      value: 
+      objectReference: {fileID: 2100000, guid: 1fee7b49ad8a6c14ca5a43b22bd18aaa, type: 2}
+    - target: {fileID: 2878834128436621095, guid: e97db2d0c9847b248aa9914c68ccfa8f, type: 3}
+      propertyPath: buttonValue
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2878834128436621095, guid: e97db2d0c9847b248aa9914c68ccfa8f, type: 3}
+      propertyPath: buttonPressedMaterial
+      value: 
+      objectReference: {fileID: 2100000, guid: 1fee7b49ad8a6c14ca5a43b22bd18aaa, type: 2}
+    - target: {fileID: 3465238402409420589, guid: e97db2d0c9847b248aa9914c68ccfa8f, type: 3}
+      propertyPath: buttonPressedMaterial
+      value: 
+      objectReference: {fileID: 2100000, guid: 1fee7b49ad8a6c14ca5a43b22bd18aaa, type: 2}
+    - target: {fileID: 3752050286743842860, guid: e97db2d0c9847b248aa9914c68ccfa8f, type: 3}
+      propertyPath: buttonValue
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3752050286743842860, guid: e97db2d0c9847b248aa9914c68ccfa8f, type: 3}
+      propertyPath: buttonPressedMaterial
+      value: 
+      objectReference: {fileID: 2100000, guid: 1fee7b49ad8a6c14ca5a43b22bd18aaa, type: 2}
+    - target: {fileID: 4904543150137728781, guid: e97db2d0c9847b248aa9914c68ccfa8f, type: 3}
+      propertyPath: buttonValue
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4904543150137728781, guid: e97db2d0c9847b248aa9914c68ccfa8f, type: 3}
+      propertyPath: buttonPressedMaterial
+      value: 
+      objectReference: {fileID: 2100000, guid: 1fee7b49ad8a6c14ca5a43b22bd18aaa, type: 2}
     - target: {fileID: 4945152647328354647, guid: e97db2d0c9847b248aa9914c68ccfa8f, type: 3}
       propertyPath: m_Name
       value: Numberpad
       objectReference: {fileID: 0}
+    - target: {fileID: 5740496900896845795, guid: e97db2d0c9847b248aa9914c68ccfa8f, type: 3}
+      propertyPath: buttonValue
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 5740496900896845795, guid: e97db2d0c9847b248aa9914c68ccfa8f, type: 3}
+      propertyPath: buttonPressedMaterial
+      value: 
+      objectReference: {fileID: 2100000, guid: 1fee7b49ad8a6c14ca5a43b22bd18aaa, type: 2}
     - target: {fileID: 5758809305417944045, guid: e97db2d0c9847b248aa9914c68ccfa8f, type: 3}
       propertyPath: m_RootOrder
       value: 7
@@ -1156,8 +1233,56 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6478720341433336399, guid: e97db2d0c9847b248aa9914c68ccfa8f, type: 3}
+      propertyPath: numPad
+      value: 
+      objectReference: {fileID: 1080107485}
+    - target: {fileID: 6478720341433336399, guid: e97db2d0c9847b248aa9914c68ccfa8f, type: 3}
+      propertyPath: buttonValue
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6478720341433336399, guid: e97db2d0c9847b248aa9914c68ccfa8f, type: 3}
+      propertyPath: buttonPressedMaterial
+      value: 
+      objectReference: {fileID: 2100000, guid: 1fee7b49ad8a6c14ca5a43b22bd18aaa, type: 2}
+    - target: {fileID: 8046656619595018201, guid: e97db2d0c9847b248aa9914c68ccfa8f, type: 3}
+      propertyPath: buttonValue
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8046656619595018201, guid: e97db2d0c9847b248aa9914c68ccfa8f, type: 3}
+      propertyPath: buttonPressedMaterial
+      value: 
+      objectReference: {fileID: 2100000, guid: 1fee7b49ad8a6c14ca5a43b22bd18aaa, type: 2}
+    - target: {fileID: 8047193279519014933, guid: e97db2d0c9847b248aa9914c68ccfa8f, type: 3}
+      propertyPath: buttonValue
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8047193279519014933, guid: e97db2d0c9847b248aa9914c68ccfa8f, type: 3}
+      propertyPath: buttonPressedMaterial
+      value: 
+      objectReference: {fileID: 2100000, guid: 1fee7b49ad8a6c14ca5a43b22bd18aaa, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e97db2d0c9847b248aa9914c68ccfa8f, type: 3}
+--- !u!1 &1080107484 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4945152647328354647, guid: e97db2d0c9847b248aa9914c68ccfa8f, type: 3}
+  m_PrefabInstance: {fileID: 1080107483}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1080107485
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1080107484}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 580b1696f82e74a438dab9dc9c9f9c6c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textOutput: {fileID: 1669813005}
+  keycardPrefab: {fileID: 6252323771361804891, guid: 2733043e92e2f4d7eb534ec4f68223cb, type: 3}
+  keycardSpawnPos: {fileID: 1478876664}
 --- !u!1 &1159615036
 GameObject:
   m_ObjectHideFlags: 0
@@ -1571,6 +1696,37 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1478876663
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1478876664}
+  m_Layer: 0
+  m_Name: KeycardSpawn
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1478876664
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1478876663}
+  m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: -0.011, y: 0.108, z: 0.106}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 622040702}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
 --- !u!1001 &1545019411
 PrefabInstance:
   m_ObjectHideFlags: 0
